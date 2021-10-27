@@ -8,7 +8,7 @@ public class MainCOR {
         MediumNotifare mediumNotifare = new MediumNotifare(level.medium);
         HardNotifaer hardNotifaer = new HardNotifaer(level.hard);
 
-        easyNotifaer.setNextNotifaer(hardNotifaer);
+        easyNotifaer.setNextNotifaer(mediumNotifare);
 
         easyNotifaer.notifaer("Заболеваемость 20% вводим маски! ", level.easy);
         easyNotifaer.notifaer("Заболеваемость 40% вводим карантин на бары! ", level.medium);

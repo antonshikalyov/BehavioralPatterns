@@ -9,6 +9,6 @@ public class TurnOn implements Command{
 
     @Override
     public void execute() {
-        radioReceiver.turnOnMusic();
+        System.out.println("Music turn on!");
     }
 }
